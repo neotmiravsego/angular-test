@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
   constructor() {}
   visibility: boolean = false;
   ngOnInit() {}
-  burgerMenu() {
+  toggleMenu() {
     this.visibility = !this.visibility;
   }
 }

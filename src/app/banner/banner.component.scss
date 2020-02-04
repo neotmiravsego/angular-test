@@ -50,10 +50,10 @@
   position: relative;
   width: 100%;
 }
-.search-item {
+.search-input {
   padding: 10px;
   width: 100%;
-  border-radius: 3px;
+  border-radius: 2px;
   border: none;
 }
 input[type="search"]::-webkit-search-decoration,
@@ -62,7 +62,7 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
-.search-item::placeholder {
+.search-input::placeholder {
   color: #b5b9c4;
 }
 .button-search {
@@ -92,7 +92,7 @@ input[type="search"]::-webkit-search-results-decoration {
   border: none;
   font-size: 16px;
   color: white;
-  border-radius: 5px;
+  border-radius: 2px;
   transition: 0.5s;
 }
 .call-back__button:hover {
@@ -106,7 +106,7 @@ input[type="search"]::-webkit-search-results-decoration {
   padding: 15px 40px;
   background: #d84315;
   border: none;
-  border-radius: 5px;
+  border-radius: 2px;
   width: max-content;
   margin: 0 auto;
   color: white;

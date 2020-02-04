@@ -14,7 +14,7 @@
   margin-right: 60px;
   display: flex;
 }
-.menu {
+.toggle-menu {
   margin-right: 20px;
   color: white;
   cursor: pointer;
@@ -40,6 +40,8 @@
   width: 206.5px;
   background: #362f2d;
   box-shadow: inset 0px 7px 13px 0px #292220;
+  transition: 1s;
+  border-radius: 0 0 2px 2px;
 }
 .login-item__top {
   position: relative;
@@ -159,7 +161,7 @@
     width: 100%;
     text-align: right;
   }
-  .menu {
+  .toggle-menu {
     margin-right: 20px;
   }
   .header {

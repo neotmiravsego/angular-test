@@ -4,7 +4,7 @@
       <img src="../../assets/logo.png" alt="" class="img-logo" />
     </div>
     <nav class="menu-bar">
-      <a class="menu" (click)="burgerMenu()">Menu</a>
+      <a class="toggle-menu" (click)="toggleMenu()">Menu</a>
       <ul class="menu-list" [ngClass]="{ active: visibility }">
         <li class="menu-list__item">
           Купить
