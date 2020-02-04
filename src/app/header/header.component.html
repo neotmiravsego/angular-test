@@ -1,0 +1,52 @@
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <img src="../../assets/logo.png" alt="" class="img-logo" />
+    </div>
+    <nav class="menu-bar">
+      <a class="menu" (click)="burgerMenu()">Menu</a>
+      <ul class="menu-list" [ngClass]="{ active: visibility }">
+        <li class="menu-list__item">
+          Купить
+        </li>
+        <li class="menu-list__item">
+          Контакты
+        </li>
+        <li class="menu-list__item">
+          Скидки
+        </li>
+        <li class="menu-list__item">
+          Отзывы
+        </li>
+      </ul>
+    </nav>
+    <a href="" class="sale">Распродажи(скидки до 90%)</a>
+    <div class="users-informations">
+      <div class="location">
+        Мой город: <span class="location-city">Нижний Новгород</span>
+      </div>
+      <div class="user-login">
+        <div class="location-mb ">
+          Мой город: <span class="location-city">Нижний Новгород</span>
+        </div>
+        <div class="login-item__top">
+          <div class="user-photo__wrap">
+            <img src="../../assets/userPhoto.png" alt="" class="" />
+          </div>
+          <p class="user-name">Имя пользователя</p>
+          <button class="user-logout__button">
+            <p class="user-log__txt">
+              Выйти
+            </p>
+          </button>
+        </div>
+        <div class="login-item__bottom">
+          <div class="basket-inf">
+            <span class="quantity-product"> 5 товаров,</span> на сумму
+            <span class="amount-product">123 300р</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
